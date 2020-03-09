@@ -1,0 +1,290 @@
+.Contenedor
+{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  border: 2px solid black;
+  background-color: #5b7989;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+
+}
+.bloque1
+{
+  order: 1
+}
+
+a[href="Paginas/Paises.html"]
+{
+  color: white;
+  font-size: 20px;
+}
+a[href="Paginas/Retratos.html"]
+{
+  color: white;
+  font-size: 20px;
+}
+a[href="Index.html"]
+{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+h1
+{
+  text-shadow: 2px 2px white;
+  color: white;
+  font-style: italic;
+}
+.Central
+{
+  margin: auto;
+  border: 2px solid black;
+  background-color: #82c3a6;
+  width: 100%;
+}
+img[src="Img/Barco.jpg"]
+{
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ display: block;
+}
+img
+{
+  border: 2px solid black;
+  text-shadow: 2px 2px #82c3a6;
+}
+.Padre
+{
+display: flex;
+flex-direction: row;
+background-color: #d5c75f;
+border: 1px solid black;
+}
+#Imagen1
+{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#Imagen2
+{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+img[src="Img/Retrato.jpg"]
+{
+  width: 100%;
+}
+img[src="Img/Paisaje.jpg"]
+{
+  width: 100%
+}
+#Imagen1:hover
+{
+ transform: rotate(10deg);
+ box-shadow: #82c3a6;
+}
+#Imagen2:hover
+{
+  transform: translateY(-5px) translateX(20px);
+  box-shadow: #82c3a6;
+}
+@media (max-width:600px){
+.Padre
+{
+  flex-direction: column;
+}
+#Imagen1, #Imagen2{
+  width: 100%;
+}
+}
+.Padre2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #C6d5c5;
+  border-bottom: 10px;
+  -moz-border-bottom: 10px;
+  -webkit-border-bottom: 10px;
+  border: 1px solid black;
+  text-indent: 10px;
+}
+#Caja1
+{
+  margin: auto;
+  width: 25%;
+  font-variant: small-caps;
+}
+#Caja2
+{
+  margin: auto;
+  width: 25%;
+  font-variant: small-caps;
+}
+#Caja3
+{
+  margin: auto;
+  width: 25%;
+  font-variant: small-caps;
+}
+#Caja4
+{
+  margin: auto;
+  width: 25%;
+  font-variant: small-caps;
+}
+.Titular
+{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+@media (max-width:600px){
+.Padre2
+{
+  flex-direction: column;
+}
+#Caja1, #Caja2, #Caja3, #Caja4{
+  width: 100%;
+}
+}
+.Padre3
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #d5c75f;
+  border: 1px solid black;
+}
+.hijo1
+{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+a[href="../Index.html"]
+{
+  color: white;
+  font-size: 20px;
+}
+a[href="Paises.html"]
+{
+  color: white;
+  font-size: 20px;
+}
+a[href="Retratos.html"]
+{
+  color: white;
+  font-size: 20px;
+}
+img[src="../Img/Paisaje.jpg"]
+{
+  width: 100%;
+}
+#ImagenP1
+{
+  -webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+#ImagenP2
+{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#ImagenP3
+{
+  -webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
+#ImagenP4
+{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#ImagenP5
+{
+
+}
+#ImagenP6
+{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+@media (max-width:600px){
+.Padre3
+{
+  flex-direction: column;
+}
+.hijo1
+{
+  width: 100%;
+}
+#ImagenP1, #ImagenP2, #ImagenP3, #ImagenP4, #ImagenP5, #ImagenP6{
+  width: 100%;
+}
+}
+img[src="../Img/Retrato.jpg"]
+{
+  width: 100%;
+}
+#ImagenR1
+{
+  -webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+#ImagenR2
+{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#ImagenR3
+{
+  -webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
+#ImagenR4
+{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#ImagenR5
+{
+
+}
+#ImagenR6
+{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+@media (max-width:600px){
+.Padre3
+{
+  flex-direction: column;
+}
+.hijo1
+{
+  width: 100%;
+}
+#ImagenR1, #ImagenR2, #ImagenR3, #ImagenR4, #ImagenR5, #ImagenR6{
+  width: 100%;
+}
+}
